@@ -1,0 +1,37 @@
+# Web Framework
+Flask==2.3.3
+flask-cors==4.0.0
+
+# Database
+mysql-connector-python>=8.0.30
+
+# Security
+Werkzeug==2.3.7
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==0.8.11
+
+# OCR (Optical Character Recognition) - Note: These may not work on Vercel
+# pdf2image==1.16.3
+# pytesseract==0.3.10
+
+# AI/ML
+google-generativeai>=0.8.0
+
+# For Vercel deployment
+gunicorn==21.2.0
+
+# Standard Library Dependencies (included for completeness)
+# os - built-in
+# json - built-in
+# re - built-in
+# traceback - built-in
+
+# System Dependencies (install separately):
+# - Tesseract OCR: https://github.com/tesseract-ocr/tesseract (Not available on Vercel)
+# - Poppler Utils: https://poppler.freedesktop.org/ (Not available on Vercel)
+# - MySQL Server: Use cloud database like Aiven for production

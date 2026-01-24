@@ -1,0 +1,28 @@
+{
+  "name": "agreement-checker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for lekha.ai Agreement Checker",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "test": "python -m pytest tests/",
+    "dev": "python app.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jay192005/agreement-checker-backend-.git"
+  },
+  "keywords": [
+    "flask",
+    "api",
+    "agreement",
+    "checker",
+    "ai",
+    "gemini"
+  ],
+  "author": "Jay Gavali",
+  "license": "MIT",
+  "engines": {
+    "python": "3.13.x"
+  }
+}
